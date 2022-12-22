@@ -1,7 +1,7 @@
 {
   "name": "@kellyjesse881/tsutils",
-  "homepage": "http://",
-  "version": "1.0.0",
+  "homepage": "https://github.com/jessekelly881/tsutils",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "license": "MIT",
   "peerDependencies": {
