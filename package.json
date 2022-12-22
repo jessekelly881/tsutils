@@ -1,5 +1,5 @@
 {
-  "name": "fp-ts-utils",
+  "name": "@kellyjesse881/fp-ts-utils",
   "homepage": "https://github.com/jessekelly881/tsutils",
   "version": "0.0.1",
   "main": "dist/index.js",
