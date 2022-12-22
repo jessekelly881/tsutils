@@ -1,0 +1,767 @@
+Info 0    [13:23:01.963] Starting TS Server
+Info 1    [13:23:01.965] Version: 4.9.4
+Info 2    [13:23:01.965] Arguments: /Users/jessekelly/.nvm/versions/node/v16.16.0/bin/node /Users/jessekelly/projects/utils/node_modules/typescript/lib/tsserver.js --logFile /Users/jessekelly/projects/utils/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/lc/y2dbm6r52hj5ljsq41phk2sm0000gn/T/d67227aff9dccd471930f7825ba2dbd6/tscancellation*
+Info 3    [13:23:01.965] Platform: darwin NodeVersion: 16 CaseSensitive: false
+Info 4    [13:23:01.965] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [13:23:01.972] Format host information updated
+Info 6    [13:23:01.979] Search path: /Users/jessekelly/projects/utils/src
+Info 7    [13:23:01.980] For info: /Users/jessekelly/projects/utils/src/TaskEither.ts :: Config file name: /Users/jessekelly/projects/utils/tsconfig.json
+Info 8    [13:23:01.980] Creating configuration project /Users/jessekelly/projects/utils/tsconfig.json
+Info 9    [13:23:01.991] Config: /Users/jessekelly/projects/utils/tsconfig.json : {
+ "rootNames": [
+  "/Users/jessekelly/projects/utils/src/TaskEither.ts",
+  "/Users/jessekelly/projects/utils/src/index.ts",
+  "/Users/jessekelly/projects/utils/tests/index.ts"
+ ],
+ "options": {
+  "strict": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "noUncheckedIndexedAccess": true,
+  "rootDirs": [],
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "target": 1,
+  "module": 1,
+  "noEmit": true,
+  "configFilePath": "/Users/jessekelly/projects/utils/tsconfig.json"
+ }
+}
+Info 10   [13:23:02.019] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 11   [13:23:02.856] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 836.8418330103159ms
+Info 12   [13:23:02.856] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 13   [13:23:02.856] 	Files (342)
+
+Info 14   [13:23:02.856] -----------------------------------------------
+Info 15   [13:23:02.865] AutoImportProviderProject: found 3 root files in 3 dependencies in 5.2382500022649765 ms
+Info 16   [13:23:02.866] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [13:23:03.061] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 195.8041249960661ms
+Info 18   [13:23:03.061] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [13:23:03.061] 	Files (148)
+
+Info 20   [13:23:03.061] -----------------------------------------------
+Info 21   [13:23:03.578] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 22   [13:23:03.598] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 20.396167010068893ms
+Info 23   [13:23:03.598] Different program with same set of files
+Info 24   [13:23:06.180] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 25   [13:23:06.200] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 19.691208004951477ms
+Info 26   [13:23:06.200] Different program with same set of files
+Info 27   [13:23:07.171] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 28   [13:23:07.189] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 17.96416699886322ms
+Info 29   [13:23:07.190] Different program with same set of files
+Info 30   [13:23:08.154] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 31   [13:23:08.170] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 16.130332991480827ms
+Info 32   [13:23:08.171] Different program with same set of files
+Info 33   [13:23:10.125] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 34   [13:23:10.142] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 16.254457995295525ms
+Info 35   [13:23:10.142] Different program with same set of files
+Info 36   [13:23:11.106] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 37   [13:23:11.123] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 16.705125004053116ms
+Info 38   [13:23:11.123] Different program with same set of files
+Info 39   [13:23:11.358] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 40   [13:23:11.371] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 13.143791988492012ms
+Info 41   [13:23:11.371] Different program with same set of files
+Info 42   [13:23:11.373] getCompletionData: Get current token: 0.012249991297721863
+Info 43   [13:23:11.373] getCompletionData: Is inside comment: 0.09766700863838196
+Info 44   [13:23:11.373] getCompletionData: Get previous token: 0.07879099249839783
+Info 45   [13:23:11.376] getExportInfoMap: cache miss or empty; calculating new results
+Info 46   [13:23:11.448] forEachExternalModuleToImportFrom autoImportProvider: 20.75533300638199
+Info 47   [13:23:11.448] getExportInfoMap: done in 72.09870800375938 ms
+Info 48   [13:23:11.468] collectAutoImports: resolved 18 module specifiers, plus 0 ambient and 19 from cache
+Info 49   [13:23:11.468] collectAutoImports: response is complete
+Info 50   [13:23:11.468] collectAutoImports: 19.87524999678135
+Info 51   [13:23:11.469] getCompletionData: Semantic work: 95.68883401155472
+Info 52   [13:23:11.486] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.1389170140028
+Info 53   [13:23:11.488] getCompletionData: Get current token: 0.003916993737220764
+Info 54   [13:23:11.488] getCompletionData: Is inside comment: 0.010250002145767212
+Info 55   [13:23:11.488] getCompletionData: Get previous token: 0.04954099655151367
+Info 56   [13:23:11.489] getExportInfoMap: cache hit
+Info 57   [13:23:11.504] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 58   [13:23:11.504] collectAutoImports: response is complete
+Info 59   [13:23:11.504] collectAutoImports: 14.476583003997803
+Info 60   [13:23:11.504] getCompletionData: Semantic work: 15.60920798778534
+Info 61   [13:23:11.511] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.256500005722046
+Info 62   [13:23:11.513] getCompletionData: Get current token: 0.003999993205070496
+Info 63   [13:23:11.513] getCompletionData: Is inside comment: 0.008083000779151917
+Info 64   [13:23:11.513] getCompletionData: Get previous token: 0.0074169933795928955
+Info 65   [13:23:11.515] getExportInfoMap: cache hit
+Info 66   [13:23:11.527] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 67   [13:23:11.527] collectAutoImports: response is complete
+Info 68   [13:23:11.527] collectAutoImports: 12.677666991949081
+Info 69   [13:23:11.528] getCompletionData: Semantic work: 14.219874992966652
+Info 70   [13:23:11.537] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.691874995827675
+Info 71   [13:23:11.538] getCompletionData: Get current token: 0.004500001668930054
+Info 72   [13:23:11.538] getCompletionData: Is inside comment: 0.008209004998207092
+Info 73   [13:23:11.538] getCompletionData: Get previous token: 0.007250010967254639
+Info 74   [13:23:11.541] getExportInfoMap: cache hit
+Info 75   [13:23:11.544] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 76   [13:23:11.544] collectAutoImports: response is complete
+Info 77   [13:23:11.544] collectAutoImports: 3.6259579956531525
+Info 78   [13:23:11.544] getCompletionData: Semantic work: 5.97775000333786
+Info 79   [13:23:11.550] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.982916995882988
+Info 80   [13:23:11.552] getCompletionData: Get current token: 0.004291996359825134
+Info 81   [13:23:11.552] getCompletionData: Is inside comment: 0.08274999260902405
+Info 82   [13:23:11.552] getCompletionData: Get previous token: 0.015417009592056274
+Info 83   [13:23:11.554] getExportInfoMap: cache hit
+Info 84   [13:23:11.558] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 85   [13:23:11.558] collectAutoImports: response is complete
+Info 86   [13:23:11.558] collectAutoImports: 4.207499995827675
+Info 87   [13:23:11.558] getCompletionData: Semantic work: 6.24099999666214
+Info 88   [13:23:11.563] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.423374995589256
+Info 89   [13:23:11.565] getCompletionData: Get current token: 0.003666996955871582
+Info 90   [13:23:11.565] getCompletionData: Is inside comment: 0.006999999284744263
+Info 91   [13:23:11.565] getCompletionData: Get previous token: 0.05037499964237213
+Info 92   [13:23:11.565] getExportInfoMap: cache hit
+Info 93   [13:23:11.569] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 94   [13:23:11.569] collectAutoImports: response is complete
+Info 95   [13:23:11.569] collectAutoImports: 3.690082997083664
+Info 96   [13:23:11.569] getCompletionData: Semantic work: 4.394000008702278
+Info 97   [13:23:11.573] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.156458005309105
+Info 98   [13:23:11.574] getCompletionData: Get current token: 0.0035409927368164062
+Info 99   [13:23:11.574] getCompletionData: Is inside comment: 0.007250010967254639
+Info 100  [13:23:11.574] getCompletionData: Get previous token: 0.007833003997802734
+Info 101  [13:23:11.575] getExportInfoMap: cache hit
+Info 102  [13:23:11.579] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 103  [13:23:11.579] collectAutoImports: response is complete
+Info 104  [13:23:11.579] collectAutoImports: 3.6031250059604645
+Info 105  [13:23:11.579] getCompletionData: Semantic work: 4.1672080010175705
+Info 106  [13:23:11.583] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.3231250047683716
+Info 107  [13:23:11.584] getCompletionData: Get current token: 0.0034999996423721313
+Info 108  [13:23:11.584] getCompletionData: Is inside comment: 0.057291001081466675
+Info 109  [13:23:11.584] getCompletionData: Get previous token: 0.007292002439498901
+Info 110  [13:23:11.584] getExportInfoMap: cache hit
+Info 111  [13:23:11.588] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 112  [13:23:11.588] collectAutoImports: response is complete
+Info 113  [13:23:11.588] collectAutoImports: 3.362167000770569
+Info 114  [13:23:11.588] getCompletionData: Semantic work: 3.9572080075740814
+Info 115  [13:23:11.591] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.0552500039339066
+Info 116  [13:23:11.602] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 117  [13:23:11.610] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 7.783125013113022ms
+Info 118  [13:23:11.610] Different program with same set of files
+Info 119  [13:23:12.192] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 120  [13:23:12.211] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 19.34670799970627ms
+Info 121  [13:23:12.211] Different program with same set of files
+Info 122  [13:23:14.169] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 123  [13:23:14.190] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 20.241124987602234ms
+Info 124  [13:23:14.190] Different program with same set of files
+Info 125  [13:23:14.774] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 126  [13:23:14.791] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 16.447040989995003ms
+Info 127  [13:23:14.791] Different program with same set of files
+Info 128  [13:23:14.792] getCompletionData: Get current token: 0.011749997735023499
+Info 129  [13:23:14.793] getCompletionData: Is inside comment: 0.024375006556510925
+Info 130  [13:23:14.793] getCompletionData: Get previous token: 0.03879201412200928
+Info 131  [13:23:14.793] getExportInfoMap: cache hit
+Info 132  [13:23:14.833] collectAutoImports: resolved 50 module specifiers, plus 0 ambient and 372 from cache
+Info 133  [13:23:14.834] collectAutoImports: response is complete
+Info 134  [13:23:14.834] collectAutoImports: 39.9913330078125
+Info 135  [13:23:14.834] getCompletionData: Semantic work: 40.31070800125599
+Info 136  [13:23:14.840] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.170500010251999
+Info 137  [13:23:14.848] getCompletionData: Get current token: 0.004875004291534424
+Info 138  [13:23:14.848] getCompletionData: Is inside comment: 0.011541992425918579
+Info 139  [13:23:14.848] getCompletionData: Get previous token: 0.015375003218650818
+Info 140  [13:23:14.848] getExportInfoMap: cache hit
+Info 141  [13:23:14.867] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 424 from cache
+Info 142  [13:23:14.867] collectAutoImports: response is complete
+Info 143  [13:23:14.867] collectAutoImports: 18.731709003448486
+Info 144  [13:23:14.867] getCompletionData: Semantic work: 18.937624990940094
+Info 145  [13:23:14.869] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.898375004529953
+Info 146  [13:23:14.872] getCompletionData: Get current token: 0.004208996891975403
+Info 147  [13:23:14.872] getCompletionData: Is inside comment: 0.00887499749660492
+Info 148  [13:23:14.872] getCompletionData: Get previous token: 0.012250006198883057
+Info 149  [13:23:14.872] getExportInfoMap: cache hit
+Info 150  [13:23:14.880] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 424 from cache
+Info 151  [13:23:14.880] collectAutoImports: response is complete
+Info 152  [13:23:14.880] collectAutoImports: 7.614374995231628
+Info 153  [13:23:14.880] getCompletionData: Semantic work: 7.706957995891571
+Info 154  [13:23:14.883] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.891958013176918
+Info 155  [13:23:14.885] getCompletionData: Get current token: 0.004124999046325684
+Info 156  [13:23:14.885] getCompletionData: Is inside comment: 0.008624985814094543
+Info 157  [13:23:14.885] getCompletionData: Get previous token: 0.012333005666732788
+Info 158  [13:23:14.885] getExportInfoMap: cache hit
+Info 159  [13:23:14.892] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 424 from cache
+Info 160  [13:23:14.892] collectAutoImports: response is complete
+Info 161  [13:23:14.892] collectAutoImports: 7.009874999523163
+Info 162  [13:23:14.892] getCompletionData: Semantic work: 7.089459002017975
+Info 163  [13:23:14.893] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.2976250052452087
+Info 164  [13:23:14.895] getCompletionData: Get current token: 0.0034580081701278687
+Info 165  [13:23:14.895] getCompletionData: Is inside comment: 0.008249998092651367
+Info 166  [13:23:14.895] getCompletionData: Get previous token: 0.011625006794929504
+Info 167  [13:23:14.895] getExportInfoMap: cache hit
+Info 168  [13:23:14.902] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 424 from cache
+Info 169  [13:23:14.902] collectAutoImports: response is complete
+Info 170  [13:23:14.902] collectAutoImports: 6.932458013296127
+Info 171  [13:23:14.902] getCompletionData: Semantic work: 7.029959008097649
+Info 172  [13:23:14.905] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.6558749973773956
+Info 173  [13:23:14.907] getCompletionData: Get current token: 0.004666000604629517
+Info 174  [13:23:14.907] getCompletionData: Is inside comment: 0.0087909996509552
+Info 175  [13:23:14.907] getCompletionData: Get previous token: 0.012042000889778137
+Info 176  [13:23:14.908] getExportInfoMap: cache hit
+Info 177  [13:23:14.917] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 424 from cache
+Info 178  [13:23:14.917] collectAutoImports: response is complete
+Info 179  [13:23:14.917] collectAutoImports: 9.521250009536743
+Info 180  [13:23:14.917] getCompletionData: Semantic work: 9.712500005960464
+Info 181  [13:23:14.920] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.7389589995145798
+Info 182  [13:23:14.922] getCompletionData: Get current token: 0.004082992672920227
+Info 183  [13:23:14.922] getCompletionData: Is inside comment: 0.008791998028755188
+Info 184  [13:23:14.922] getCompletionData: Get previous token: 0.012084007263183594
+Info 185  [13:23:14.922] getExportInfoMap: cache hit
+Info 186  [13:23:14.928] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 424 from cache
+Info 187  [13:23:14.928] collectAutoImports: response is complete
+Info 188  [13:23:14.928] collectAutoImports: 6.188958004117012
+Info 189  [13:23:14.928] getCompletionData: Semantic work: 6.3321249932050705
+Info 190  [13:23:14.930] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.761583998799324
+Info 191  [13:23:14.932] getCompletionData: Get current token: 0.004083007574081421
+Info 192  [13:23:14.932] getCompletionData: Is inside comment: 0.00849999487400055
+Info 193  [13:23:14.932] getCompletionData: Get previous token: 0.012042000889778137
+Info 194  [13:23:14.932] getExportInfoMap: cache hit
+Info 195  [13:23:14.938] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 424 from cache
+Info 196  [13:23:14.938] collectAutoImports: response is complete
+Info 197  [13:23:14.938] collectAutoImports: 6.1569999903440475
+Info 198  [13:23:14.938] getCompletionData: Semantic work: 6.241208001971245
+Info 199  [13:23:14.939] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.2125000059604645
+Info 200  [13:23:14.956] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 201  [13:23:14.960] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 4.623750001192093ms
+Info 202  [13:23:14.960] Different program with same set of files
+Info 203  [13:23:15.790] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 204  [13:23:15.805] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 14.47987499833107ms
+Info 205  [13:23:15.805] Different program with same set of files
+Info 206  [13:23:16.781] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 207  [13:23:16.850] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 15 structureChanged: true structureIsReused:: SafeModules Elapsed: 69.42512500286102ms
+Info 208  [13:23:16.851] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 209  [13:23:16.851] 	Files (408)
+
+Info 210  [13:23:16.851] -----------------------------------------------
+Info 211  [13:23:16.851] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 212  [13:23:16.851] 	Files (148)
+
+Info 213  [13:23:16.851] -----------------------------------------------
+Info 214  [13:23:17.399] Format host information updated
+Info 215  [13:23:17.694] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 216  [13:23:17.736] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 16 structureChanged: true structureIsReused:: SafeModules Elapsed: 41.75566700100899ms
+Info 217  [13:23:17.736] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 218  [13:23:17.736] 	Files (342)
+
+Info 219  [13:23:17.736] -----------------------------------------------
+Info 220  [13:23:17.736] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 221  [13:23:17.736] 	Files (148)
+
+Info 222  [13:23:17.736] -----------------------------------------------
+Info 223  [13:23:18.118] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 224  [13:23:18.154] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 17 structureChanged: true structureIsReused:: SafeModules Elapsed: 35.47900000214577ms
+Info 225  [13:23:18.154] Different program with same set of files
+Info 226  [13:23:18.633] Format host information updated
+Info 227  [13:23:18.634] Format host information updated
+Info 228  [13:23:18.634] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 229  [13:23:18.684] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 18 structureChanged: true structureIsReused:: SafeModules Elapsed: 49.78862498700619ms
+Info 230  [13:23:18.684] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 231  [13:23:18.684] 	Files (351)
+
+Info 232  [13:23:18.684] -----------------------------------------------
+Info 233  [13:23:18.684] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 234  [13:23:18.684] 	Files (148)
+
+Info 235  [13:23:18.684] -----------------------------------------------
+Info 236  [13:23:19.556] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 237  [13:23:19.571] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 14.264874994754791ms
+Info 238  [13:23:19.571] Different program with same set of files
+Info 239  [13:23:22.878] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 240  [13:23:22.895] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 16.453499987721443ms
+Info 241  [13:23:22.895] Different program with same set of files
+Info 242  [13:23:24.086] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 243  [13:23:24.101] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 14.468624994158745ms
+Info 244  [13:23:24.101] Different program with same set of files
+Info 245  [13:23:25.835] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 246  [13:23:25.908] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 22 structureChanged: true structureIsReused:: SafeModules Elapsed: 72.33862499892712ms
+Info 247  [13:23:25.908] Different program with same set of files
+Info 248  [13:23:27.232] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 249  [13:23:27.245] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 11.933708995580673ms
+Info 250  [13:23:27.249] Different program with same set of files
+Info 251  [13:23:28.369] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 252  [13:23:28.421] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 24 structureChanged: true structureIsReused:: SafeModules Elapsed: 52.01775000989437ms
+Info 253  [13:23:28.421] Different program with same set of files
+Info 254  [13:23:34.395] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 255  [13:23:34.408] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 13.295874997973442ms
+Info 256  [13:23:34.408] Different program with same set of files
+Info 257  [13:23:34.846] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 258  [13:23:34.862] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 15.199582993984222ms
+Info 259  [13:23:34.862] Different program with same set of files
+Info 260  [13:23:34.862] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 261  [13:23:34.873] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 10.79908299446106ms
+Info 262  [13:23:34.873] Different program with same set of files
+Info 263  [13:23:35.071] getCompletionData: Get current token: 0.026625007390975952
+Info 264  [13:23:35.071] getCompletionData: Is inside comment: 0.029707998037338257
+Info 265  [13:23:35.071] getCompletionData: Get previous token: 0.04158300161361694
+Info 266  [13:23:35.072] getCompletionsAtPosition: isCompletionListBlocker: 0.7819999903440475
+Info 267  [13:23:35.088] AutoImportProviderProject: found 3 root files in 3 dependencies in 1.2844579964876175 ms
+Info 268  [13:23:35.089] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 269  [13:23:35.090] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: false structureIsReused:: Not Elapsed: 1.400082990527153ms
+Info 270  [13:23:35.090] getExportInfoMap: cache miss or empty; calculating new results
+Info 271  [13:23:35.164] forEachExternalModuleToImportFrom autoImportProvider: 14.918707996606827
+Info 272  [13:23:35.164] getExportInfoMap: done in 78.27674999833107 ms
+Info 273  [13:23:35.171] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 274  [13:23:35.171] collectAutoImports: response is complete
+Info 275  [13:23:35.171] collectAutoImports: 6.576082989573479
+Info 276  [13:23:35.171] getCompletionData: Semantic work: 98.97916699945927
+Info 277  [13:23:35.178] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.781917005777359
+Info 278  [13:23:35.180] getCompletionData: Get current token: 0.004082992672920227
+Info 279  [13:23:35.180] getCompletionData: Is inside comment: 0.007166996598243713
+Info 280  [13:23:35.180] getCompletionData: Get previous token: 0.008208006620407104
+Info 281  [13:23:35.180] getCompletionsAtPosition: isCompletionListBlocker: 0.008917003870010376
+Info 282  [13:23:35.182] getExportInfoMap: cache hit
+Info 283  [13:23:35.186] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 284  [13:23:35.186] collectAutoImports: response is complete
+Info 285  [13:23:35.186] collectAutoImports: 4.686082988977432
+Info 286  [13:23:35.186] getCompletionData: Semantic work: 6.386000007390976
+Info 287  [13:23:35.195] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.9142919927835464
+Info 288  [13:23:35.201] getCompletionData: Get current token: 0.004915997385978699
+Info 289  [13:23:35.201] getCompletionData: Is inside comment: 0.007666990160942078
+Info 290  [13:23:35.201] getCompletionData: Get previous token: 0.008374989032745361
+Info 291  [13:23:35.201] getCompletionsAtPosition: isCompletionListBlocker: 0.012709006667137146
+Info 292  [13:23:35.202] getExportInfoMap: cache hit
+Info 293  [13:23:35.206] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 294  [13:23:35.206] collectAutoImports: response is complete
+Info 295  [13:23:35.206] collectAutoImports: 3.666374996304512
+Info 296  [13:23:35.206] getCompletionData: Semantic work: 5.59349998831749
+Info 297  [13:23:35.212] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.926958009600639
+Info 298  [13:23:35.214] getCompletionData: Get current token: 0.004625007510185242
+Info 299  [13:23:35.214] getCompletionData: Is inside comment: 0.007374987006187439
+Info 300  [13:23:35.214] getCompletionData: Get previous token: 0.008458003401756287
+Info 301  [13:23:35.214] getCompletionsAtPosition: isCompletionListBlocker: 0.010333001613616943
+Info 302  [13:23:35.216] getExportInfoMap: cache hit
+Info 303  [13:23:35.219] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 304  [13:23:35.219] collectAutoImports: response is complete
+Info 305  [13:23:35.219] collectAutoImports: 3.0968749970197678
+Info 306  [13:23:35.219] getCompletionData: Semantic work: 5.27470900118351
+Info 307  [13:23:35.223] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.398249998688698
+Info 308  [13:23:35.224] getCompletionData: Get current token: 0.004749998450279236
+Info 309  [13:23:35.224] getCompletionData: Is inside comment: 0.007082998752593994
+Info 310  [13:23:35.224] getCompletionData: Get previous token: 0.010208994150161743
+Info 311  [13:23:35.224] getCompletionsAtPosition: isCompletionListBlocker: 0.015208005905151367
+Info 312  [13:23:35.225] getExportInfoMap: cache hit
+Info 313  [13:23:35.228] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 314  [13:23:35.228] collectAutoImports: response is complete
+Info 315  [13:23:35.228] collectAutoImports: 3.032499998807907
+Info 316  [13:23:35.228] getCompletionData: Semantic work: 4.3811250030994415
+Info 317  [13:23:35.232] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.6240419894456863
+Info 318  [13:23:35.233] getCompletionData: Get current token: 0.0034999996423721313
+Info 319  [13:23:35.233] getCompletionData: Is inside comment: 0.006082996726036072
+Info 320  [13:23:35.233] getCompletionData: Get previous token: 0.007291004061698914
+Info 321  [13:23:35.233] getCompletionsAtPosition: isCompletionListBlocker: 0.012500002980232239
+Info 322  [13:23:35.234] getExportInfoMap: cache hit
+Info 323  [13:23:35.237] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 324  [13:23:35.237] collectAutoImports: response is complete
+Info 325  [13:23:35.237] collectAutoImports: 2.748958006501198
+Info 326  [13:23:35.237] getCompletionData: Semantic work: 3.7430000007152557
+Info 327  [13:23:35.240] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.008667007088661
+Info 328  [13:23:35.241] getCompletionData: Get current token: 0.0032500028610229492
+Info 329  [13:23:35.241] getCompletionData: Is inside comment: 0.006083011627197266
+Info 330  [13:23:35.241] getCompletionData: Get previous token: 0.007375001907348633
+Info 331  [13:23:35.241] getCompletionsAtPosition: isCompletionListBlocker: 0.00962500274181366
+Info 332  [13:23:35.242] getExportInfoMap: cache hit
+Info 333  [13:23:35.245] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 334  [13:23:35.245] collectAutoImports: response is complete
+Info 335  [13:23:35.245] collectAutoImports: 2.8999169915914536
+Info 336  [13:23:35.245] getCompletionData: Semantic work: 3.8942920118570328
+Info 337  [13:23:35.248] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.082084000110626
+Info 338  [13:23:35.249] getCompletionData: Get current token: 0.0034999996423721313
+Info 339  [13:23:35.249] getCompletionData: Is inside comment: 0.006333008408546448
+Info 340  [13:23:35.249] getCompletionData: Get previous token: 0.00758400559425354
+Info 341  [13:23:35.249] getCompletionsAtPosition: isCompletionListBlocker: 0.008125007152557373
+Info 342  [13:23:35.250] getExportInfoMap: cache hit
+Info 343  [13:23:35.253] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 344  [13:23:35.253] collectAutoImports: response is complete
+Info 345  [13:23:35.253] collectAutoImports: 2.8279590010643005
+Info 346  [13:23:35.253] getCompletionData: Semantic work: 3.9882080107927322
+Info 347  [13:23:35.256] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.720541000366211
+Info 348  [13:23:35.862] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 349  [13:23:35.877] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 14.705541998147964ms
+Info 350  [13:23:35.877] Different program with same set of files
+Info 351  [13:23:37.565] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 352  [13:23:37.578] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 11.974500000476837ms
+Info 353  [13:23:37.578] Different program with same set of files
+Info 354  [13:23:38.048] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 355  [13:23:38.060] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 11.945333003997803ms
+Info 356  [13:23:38.060] Different program with same set of files
+Info 357  [13:23:38.061] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 358  [13:23:38.065] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 4.607833996415138ms
+Info 359  [13:23:38.065] Different program with same set of files
+Info 360  [13:23:39.094] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 361  [13:23:39.109] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 15.368000000715256ms
+Info 362  [13:23:39.109] Different program with same set of files
+Info 363  [13:23:39.638] Format host information updated
+Info 364  [13:23:40.251] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 365  [13:23:40.287] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 33 structureChanged: true structureIsReused:: SafeModules Elapsed: 35.435000002384186ms
+Info 366  [13:23:40.287] Different program with same set of files
+Info 367  [13:23:40.287] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 368  [13:23:40.312] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 34 structureChanged: true structureIsReused:: SafeModules Elapsed: 25.03320799767971ms
+Info 369  [13:23:40.312] Different program with same set of files
+Info 370  [13:23:40.978] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 371  [13:23:41.039] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 35 structureChanged: true structureIsReused:: SafeModules Elapsed: 60.26825000345707ms
+Info 372  [13:23:41.039] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 373  [13:23:41.039] 	Files (352)
+
+Info 374  [13:23:41.039] -----------------------------------------------
+Info 375  [13:23:41.039] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 376  [13:23:41.039] 	Files (148)
+
+Info 377  [13:23:41.040] -----------------------------------------------
+Info 378  [13:23:41.041] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 379  [13:23:41.068] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 36 structureChanged: true structureIsReused:: SafeModules Elapsed: 26.64741699397564ms
+Info 380  [13:23:41.068] Different program with same set of files
+Info 381  [13:23:41.943] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 382  [13:23:41.984] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 37 structureChanged: true structureIsReused:: SafeModules Elapsed: 40.87833300232887ms
+Info 383  [13:23:41.984] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 384  [13:23:41.984] 	Files (351)
+
+Info 385  [13:23:41.984] -----------------------------------------------
+Info 386  [13:23:41.984] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 387  [13:23:41.984] 	Files (148)
+
+Info 388  [13:23:41.984] -----------------------------------------------
+Info 389  [13:23:42.259] Format host information updated
+Info 390  [13:23:43.003] Format host information updated
+Info 391  [13:23:43.003] Format host information updated
+Info 392  [13:23:43.003] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 393  [13:23:43.070] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 38 structureChanged: true structureIsReused:: SafeModules Elapsed: 67.01883299648762ms
+Info 394  [13:23:43.070] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 395  [13:23:43.070] 	Files (359)
+
+Info 396  [13:23:43.070] -----------------------------------------------
+Info 397  [13:23:43.070] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 398  [13:23:43.070] 	Files (148)
+
+Info 399  [13:23:43.070] -----------------------------------------------
+Info 400  [13:23:43.989] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 401  [13:23:44.000] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 10.88629101216793ms
+Info 402  [13:23:44.000] Different program with same set of files
+Info 403  [13:23:48.620] Format host information updated
+Info 404  [13:23:48.840] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 405  [13:23:48.849] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 8.479542002081871ms
+Info 406  [13:23:48.849] Different program with same set of files
+Info 407  [13:23:57.351] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 408  [13:23:57.420] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 41 structureChanged: true structureIsReused:: SafeModules Elapsed: 68.62966699898243ms
+Info 409  [13:23:57.420] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 410  [13:23:57.420] 	Files (351)
+
+Info 411  [13:23:57.420] -----------------------------------------------
+Info 412  [13:23:57.420] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 413  [13:23:57.420] 	Files (148)
+
+Info 414  [13:23:57.420] -----------------------------------------------
+Info 415  [13:23:58.435] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 416  [13:23:58.494] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 42 structureChanged: true structureIsReused:: SafeModules Elapsed: 58.8828340023756ms
+Info 417  [13:23:58.494] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 418  [13:23:58.494] 	Files (359)
+
+Info 419  [13:23:58.494] -----------------------------------------------
+Info 420  [13:23:58.494] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 421  [13:23:58.494] 	Files (148)
+
+Info 422  [13:23:58.494] -----------------------------------------------
+Info 423  [13:24:00.728] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 424  [13:24:00.779] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 43 structureChanged: true structureIsReused:: SafeModules Elapsed: 49.868167012929916ms
+Info 425  [13:24:00.779] Different program with same set of files
+Info 426  [13:24:01.014] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 427  [13:24:01.064] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 44 structureChanged: true structureIsReused:: SafeModules Elapsed: 49.79441700875759ms
+Info 428  [13:24:01.064] Different program with same set of files
+Info 429  [13:24:01.584] Format host information updated
+Info 430  [13:24:01.796] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 431  [13:24:01.805] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 9.065375000238419ms
+Info 432  [13:24:01.805] Different program with same set of files
+Info 433  [13:24:03.170] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 434  [13:24:03.185] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 14.845415994524956ms
+Info 435  [13:24:03.185] Different program with same set of files
+Info 436  [13:24:03.595] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 437  [13:24:03.609] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 13.089040994644165ms
+Info 438  [13:24:03.609] Different program with same set of files
+Info 439  [13:24:03.610] getCompletionData: Get current token: 0.015500009059906006
+Info 440  [13:24:03.610] getCompletionData: Is inside comment: 0.0464169979095459
+Info 441  [13:24:03.610] getCompletionData: Get previous token: 0.0263340026140213
+Info 442  [13:24:03.610] getCompletionsAtPosition: isCompletionListBlocker: 0.02883400022983551
+Info 443  [13:24:03.622] AutoImportProviderProject: found 3 root files in 3 dependencies in 0.3923330008983612 ms
+Info 444  [13:24:03.622] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 445  [13:24:03.623] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 3 structureChanged: false structureIsReused:: Not Elapsed: 1.1139159947633743ms
+Info 446  [13:24:03.623] getExportInfoMap: cache miss or empty; calculating new results
+Info 447  [13:24:03.688] forEachExternalModuleToImportFrom autoImportProvider: 6.458832994103432
+Info 448  [13:24:03.688] getExportInfoMap: done in 66.66183300316334 ms
+Info 449  [13:24:03.694] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 450  [13:24:03.694] collectAutoImports: response is complete
+Info 451  [13:24:03.694] collectAutoImports: 5.920040994882584
+Info 452  [13:24:03.694] getCompletionData: Semantic work: 83.970124989748
+Info 453  [13:24:03.701] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.6275409907102585
+Info 454  [13:24:03.710] getCompletionData: Get current token: 0.004583001136779785
+Info 455  [13:24:03.710] getCompletionData: Is inside comment: 0.01266700029373169
+Info 456  [13:24:03.710] getCompletionData: Get previous token: 0.008291006088256836
+Info 457  [13:24:03.710] getCompletionsAtPosition: isCompletionListBlocker: 0.011208012700080872
+Info 458  [13:24:03.712] getExportInfoMap: cache hit
+Info 459  [13:24:03.715] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 460  [13:24:03.715] collectAutoImports: response is complete
+Info 461  [13:24:03.715] collectAutoImports: 2.8111249953508377
+Info 462  [13:24:03.715] getCompletionData: Semantic work: 5.026500001549721
+Info 463  [13:24:03.722] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.342292010784149
+Info 464  [13:24:03.724] getCompletionData: Get current token: 0.011458009481430054
+Info 465  [13:24:03.725] getCompletionData: Is inside comment: 0.029874995350837708
+Info 466  [13:24:03.725] getCompletionData: Get previous token: 0.022207990288734436
+Info 467  [13:24:03.725] getCompletionsAtPosition: isCompletionListBlocker: 0.013334006071090698
+Info 468  [13:24:03.727] getExportInfoMap: cache hit
+Info 469  [13:24:03.730] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 470  [13:24:03.730] collectAutoImports: response is complete
+Info 471  [13:24:03.730] collectAutoImports: 2.7648749947547913
+Info 472  [13:24:03.730] getCompletionData: Semantic work: 5.119584009051323
+Info 473  [13:24:03.735] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.777625009417534
+Info 474  [13:24:03.736] getCompletionData: Get current token: 0.0040000081062316895
+Info 475  [13:24:03.736] getCompletionData: Is inside comment: 0.014583006501197815
+Info 476  [13:24:03.736] getCompletionData: Get previous token: 0.008166998624801636
+Info 477  [13:24:03.736] getCompletionsAtPosition: isCompletionListBlocker: 0.009124994277954102
+Info 478  [13:24:03.737] getExportInfoMap: cache hit
+Info 479  [13:24:03.740] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 480  [13:24:03.740] collectAutoImports: response is complete
+Info 481  [13:24:03.740] collectAutoImports: 2.701416999101639
+Info 482  [13:24:03.740] getCompletionData: Semantic work: 4.08066700398922
+Info 483  [13:24:03.747] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.684166997671127
+Info 484  [13:24:03.748] getCompletionData: Get current token: 0.0038340091705322266
+Info 485  [13:24:03.748] getCompletionData: Is inside comment: 0.011583000421524048
+Info 486  [13:24:03.748] getCompletionData: Get previous token: 0.0076670050621032715
+Info 487  [13:24:03.748] getCompletionsAtPosition: isCompletionListBlocker: 0.01091700792312622
+Info 488  [13:24:03.750] getExportInfoMap: cache hit
+Info 489  [13:24:03.753] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 490  [13:24:03.753] collectAutoImports: response is complete
+Info 491  [13:24:03.753] collectAutoImports: 2.7530830055475235
+Info 492  [13:24:03.753] getCompletionData: Semantic work: 4.8632500022649765
+Info 493  [13:24:03.756] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.2842500060796738
+Info 494  [13:24:03.757] getCompletionData: Get current token: 0.003541991114616394
+Info 495  [13:24:03.757] getCompletionData: Is inside comment: 0.010833993554115295
+Info 496  [13:24:03.757] getCompletionData: Get previous token: 0.007332995533943176
+Info 497  [13:24:03.757] getCompletionsAtPosition: isCompletionListBlocker: 0.007917001843452454
+Info 498  [13:24:03.758] getExportInfoMap: cache hit
+Info 499  [13:24:03.761] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 500  [13:24:03.761] collectAutoImports: response is complete
+Info 501  [13:24:03.761] collectAutoImports: 3.070707991719246
+Info 502  [13:24:03.761] getCompletionData: Semantic work: 4.26808300614357
+Info 503  [13:24:03.764] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.964499995112419
+Info 504  [13:24:03.766] getCompletionData: Get current token: 0.003666996955871582
+Info 505  [13:24:03.766] getCompletionData: Is inside comment: 0.011041998863220215
+Info 506  [13:24:03.766] getCompletionData: Get previous token: 0.007542014122009277
+Info 507  [13:24:03.766] getCompletionsAtPosition: isCompletionListBlocker: 0.009874999523162842
+Info 508  [13:24:03.767] getExportInfoMap: cache hit
+Info 509  [13:24:03.770] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 510  [13:24:03.770] collectAutoImports: response is complete
+Info 511  [13:24:03.770] collectAutoImports: 3.195792004466057
+Info 512  [13:24:03.770] getCompletionData: Semantic work: 4.294124990701675
+Info 513  [13:24:03.773] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.66949999332428
+Info 514  [13:24:03.774] getCompletionData: Get current token: 0.003582999110221863
+Info 515  [13:24:03.774] getCompletionData: Is inside comment: 0.011041000485420227
+Info 516  [13:24:03.774] getCompletionData: Get previous token: 0.007583007216453552
+Info 517  [13:24:03.774] getCompletionsAtPosition: isCompletionListBlocker: 0.007791012525558472
+Info 518  [13:24:03.775] getExportInfoMap: cache hit
+Info 519  [13:24:03.778] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 37 from cache
+Info 520  [13:24:03.778] collectAutoImports: response is complete
+Info 521  [13:24:03.778] collectAutoImports: 3.0417499989271164
+Info 522  [13:24:03.778] getCompletionData: Semantic work: 4.150374993681908
+Info 523  [13:24:03.781] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.652750000357628
+Info 524  [13:24:03.792] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 525  [13:24:03.797] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 4.384708002209663ms
+Info 526  [13:24:03.797] Different program with same set of files
+Info 527  [13:24:04.318] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 528  [13:24:04.331] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 13.096959009766579ms
+Info 529  [13:24:04.331] Different program with same set of files
+Info 530  [13:24:04.809] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 531  [13:24:04.827] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 17.7737919986248ms
+Info 532  [13:24:04.827] Different program with same set of files
+Info 533  [13:24:05.333] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 534  [13:24:05.349] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 15.556584000587463ms
+Info 535  [13:24:05.349] Different program with same set of files
+Info 536  [13:24:05.595] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 537  [13:24:05.602] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 6.669584006071091ms
+Info 538  [13:24:05.602] Different program with same set of files
+Info 539  [13:24:05.603] getCompletionData: Get current token: 0.008708000183105469
+Info 540  [13:24:05.603] getCompletionData: Is inside comment: 0.023708999156951904
+Info 541  [13:24:05.603] getCompletionData: Get previous token: 0.02912500500679016
+Info 542  [13:24:05.603] getExportInfoMap: cache hit
+Info 543  [13:24:05.619] collectAutoImports: resolved 17 module specifiers, plus 0 ambient and 327 from cache
+Info 544  [13:24:05.620] collectAutoImports: response is complete
+Info 545  [13:24:05.620] collectAutoImports: 16.35504199564457
+Info 546  [13:24:05.620] getCompletionData: Semantic work: 16.550458997488022
+Info 547  [13:24:05.625] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.53829200565815
+Info 548  [13:24:05.640] getCompletionData: Get current token: 0.005374997854232788
+Info 549  [13:24:05.640] getCompletionData: Is inside comment: 0.01279100775718689
+Info 550  [13:24:05.640] getCompletionData: Get previous token: 0.018000006675720215
+Info 551  [13:24:05.640] getExportInfoMap: cache hit
+Info 552  [13:24:05.647] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 344 from cache
+Info 553  [13:24:05.647] collectAutoImports: response is complete
+Info 554  [13:24:05.647] collectAutoImports: 6.381042003631592
+Info 555  [13:24:05.647] getCompletionData: Semantic work: 6.490790992975235
+Info 556  [13:24:05.648] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.0865409970283508
+Info 557  [13:24:05.650] getCompletionData: Get current token: 0.004749998450279236
+Info 558  [13:24:05.650] getCompletionData: Is inside comment: 0.011583998799324036
+Info 559  [13:24:05.650] getCompletionData: Get previous token: 0.016749992966651917
+Info 560  [13:24:05.650] getExportInfoMap: cache hit
+Info 561  [13:24:05.655] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 344 from cache
+Info 562  [13:24:05.655] collectAutoImports: response is complete
+Info 563  [13:24:05.655] collectAutoImports: 4.987083002924919
+Info 564  [13:24:05.655] getCompletionData: Semantic work: 5.091458007693291
+Info 565  [13:24:05.656] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.9996660053730011
+Info 566  [13:24:05.658] getCompletionData: Get current token: 0.0047919899225234985
+Info 567  [13:24:05.658] getCompletionData: Is inside comment: 0.011207997798919678
+Info 568  [13:24:05.658] getCompletionData: Get previous token: 0.01591600477695465
+Info 569  [13:24:05.658] getExportInfoMap: cache hit
+Info 570  [13:24:05.664] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 344 from cache
+Info 571  [13:24:05.664] collectAutoImports: response is complete
+Info 572  [13:24:05.664] collectAutoImports: 6.002166002988815
+Info 573  [13:24:05.664] getCompletionData: Semantic work: 6.113665997982025
+Info 574  [13:24:05.665] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.0137919932603836
+Info 575  [13:24:05.668] getCompletionData: Get current token: 0.004583999514579773
+Info 576  [13:24:05.668] getCompletionData: Is inside comment: 0.010166004300117493
+Info 577  [13:24:05.668] getCompletionData: Get previous token: 0.015124991536140442
+Info 578  [13:24:05.668] getExportInfoMap: cache hit
+Info 579  [13:24:05.673] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 344 from cache
+Info 580  [13:24:05.673] collectAutoImports: response is complete
+Info 581  [13:24:05.673] collectAutoImports: 4.828125
+Info 582  [13:24:05.673] getCompletionData: Semantic work: 5.299832999706268
+Info 583  [13:24:05.674] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.8999170064926147
+Info 584  [13:24:05.676] getCompletionData: Get current token: 0.008791998028755188
+Info 585  [13:24:05.676] getCompletionData: Is inside comment: 0.015457987785339355
+Info 586  [13:24:05.676] getCompletionData: Get previous token: 0.029708996415138245
+Info 587  [13:24:05.676] getExportInfoMap: cache hit
+Info 588  [13:24:05.682] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 344 from cache
+Info 589  [13:24:05.682] collectAutoImports: response is complete
+Info 590  [13:24:05.682] collectAutoImports: 5.210290998220444
+Info 591  [13:24:05.682] getCompletionData: Semantic work: 5.460542008280754
+Info 592  [13:24:05.683] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.3927499949932098
+Info 593  [13:24:05.685] getCompletionData: Get current token: 0.004124999046325684
+Info 594  [13:24:05.685] getCompletionData: Is inside comment: 0.009958997368812561
+Info 595  [13:24:05.685] getCompletionData: Get previous token: 0.014292001724243164
+Info 596  [13:24:05.685] getExportInfoMap: cache hit
+Info 597  [13:24:05.690] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 344 from cache
+Info 598  [13:24:05.690] collectAutoImports: response is complete
+Info 599  [13:24:05.690] collectAutoImports: 4.912000000476837
+Info 600  [13:24:05.690] getCompletionData: Semantic work: 5.02666600048542
+Info 601  [13:24:05.691] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.9872080087661743
+Info 602  [13:24:05.693] getCompletionData: Get current token: 0.004083007574081421
+Info 603  [13:24:05.693] getCompletionData: Is inside comment: 0.010792002081871033
+Info 604  [13:24:05.693] getCompletionData: Get previous token: 0.014541998505592346
+Info 605  [13:24:05.693] getExportInfoMap: cache hit
+Info 606  [13:24:05.698] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 344 from cache
+Info 607  [13:24:05.698] collectAutoImports: response is complete
+Info 608  [13:24:05.698] collectAutoImports: 4.619290992617607
+Info 609  [13:24:05.698] getCompletionData: Semantic work: 4.713667005300522
+Info 610  [13:24:05.699] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.7443749904632568
+Info 611  [13:24:05.976] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 612  [13:24:05.991] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 13.485957995057106ms
+Info 613  [13:24:05.991] Different program with same set of files
+Info 614  [13:24:05.992] getCompletionData: Get current token: 0.01204100251197815
+Info 615  [13:24:05.992] getCompletionData: Is inside comment: 0.029165998101234436
+Info 616  [13:24:05.992] getCompletionData: Get previous token: 0.0450420081615448
+Info 617  [13:24:05.992] getExportInfoMap: cache hit
+Info 618  [13:24:06.004] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 159 from cache
+Info 619  [13:24:06.004] collectAutoImports: response is complete
+Info 620  [13:24:06.005] collectAutoImports: 12.319333001971245
+Info 621  [13:24:06.005] getCompletionData: Semantic work: 12.571541994810104
+Info 622  [13:24:06.006] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.3002080023288727
+Info 623  [13:24:07.689] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 624  [13:24:07.701] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 12.135250002145767ms
+Info 625  [13:24:07.701] Different program with same set of files
+Info 626  [13:24:08.228] Format host information updated
+Info 627  [13:24:08.796] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 628  [13:24:08.830] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 55 structureChanged: true structureIsReused:: SafeModules Elapsed: 34.13766700029373ms
+Info 629  [13:24:08.830] Different program with same set of files
+Info 630  [13:24:09.071] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 631  [13:24:09.125] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 56 structureChanged: true structureIsReused:: SafeModules Elapsed: 54.146624997258186ms
+Info 632  [13:24:09.125] Different program with same set of files
+Info 633  [13:24:09.414] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 634  [13:24:09.462] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 57 structureChanged: true structureIsReused:: SafeModules Elapsed: 47.31783299148083ms
+Info 635  [13:24:09.462] Different program with same set of files
+Info 636  [13:24:09.463] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 637  [13:24:09.490] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 58 structureChanged: true structureIsReused:: SafeModules Elapsed: 27.5001669973135ms
+Info 638  [13:24:09.490] Different program with same set of files
+Info 639  [13:24:10.358] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 640  [13:24:10.416] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 59 structureChanged: true structureIsReused:: SafeModules Elapsed: 57.97920799255371ms
+Info 641  [13:24:10.416] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 642  [13:24:10.416] 	Files (414)
+
+Info 643  [13:24:10.416] -----------------------------------------------
+Info 644  [13:24:10.416] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 645  [13:24:10.416] 	Files (148)
+
+Info 646  [13:24:10.416] -----------------------------------------------
+Info 647  [13:24:10.877] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 648  [13:24:10.909] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 60 structureChanged: true structureIsReused:: SafeModules Elapsed: 31.607290998101234ms
+Info 649  [13:24:10.909] Project '/Users/jessekelly/projects/utils/tsconfig.json' (Configured)
+Info 650  [13:24:10.909] 	Files (359)
+
+Info 651  [13:24:10.909] -----------------------------------------------
+Info 652  [13:24:10.909] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 653  [13:24:10.909] 	Files (148)
+
+Info 654  [13:24:10.909] -----------------------------------------------
+Info 655  [13:24:10.911] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 656  [13:24:10.937] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 61 structureChanged: true structureIsReused:: SafeModules Elapsed: 25.84045898914337ms
+Info 657  [13:24:10.937] Different program with same set of files
+Info 658  [13:24:11.310] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 659  [13:24:11.358] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 62 structureChanged: true structureIsReused:: SafeModules Elapsed: 47.98320899903774ms
+Info 660  [13:24:11.358] Different program with same set of files
+Info 661  [13:24:11.371] Format host information updated
+Info 662  [13:24:11.371] Format host information updated
+Info 663  [13:24:11.371] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 664  [13:24:11.400] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 63 structureChanged: true structureIsReused:: SafeModules Elapsed: 29.025417000055313ms
+Info 665  [13:24:11.400] Different program with same set of files
+Info 666  [13:24:12.226] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 667  [13:24:12.236] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 9.323834002017975ms
+Info 668  [13:24:12.236] Different program with same set of files
+Info 669  [13:24:12.689] Format host information updated
+Info 670  [13:24:12.904] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 671  [13:24:12.911] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 6.595500007271767ms
+Info 672  [13:24:12.911] Different program with same set of files
+Info 673  [13:24:19.011] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 674  [13:24:19.030] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 18.012208998203278ms
+Info 675  [13:24:19.030] Different program with same set of files
+Info 676  [13:24:23.689] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 677  [13:24:23.724] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 34.50133399665356ms
+Info 678  [13:24:23.724] Different program with same set of files
+Info 679  [13:24:23.736] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 680  [13:24:23.743] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 6.878582999110222ms
+Info 681  [13:24:23.743] Different program with same set of files
+Info 682  [13:24:24.240] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 683  [13:24:24.259] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 19.145415991544724ms
+Info 684  [13:24:24.259] Different program with same set of files
+Info 685  [13:24:25.225] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 686  [13:24:25.238] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 12.789708003401756ms
+Info 687  [13:24:25.238] Different program with same set of files
+Info 688  [13:24:25.555] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 689  [13:24:25.567] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 11.694166988134384ms
+Info 690  [13:24:25.567] Different program with same set of files
+Info 691  [13:24:26.539] Format host information updated
+Info 692  [13:24:26.747] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 693  [13:24:26.755] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 7.841250002384186ms
+Info 694  [13:24:26.755] Different program with same set of files
+Info 695  [13:24:28.475] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 696  [13:24:28.488] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 13.409624993801117ms
+Info 697  [13:24:28.488] Different program with same set of files
+Info 698  [13:24:29.469] Format host information updated
+Info 699  [13:24:29.679] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 700  [13:24:29.688] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 8.541042000055313ms
+Info 701  [13:24:29.688] Different program with same set of files
+Info 702  [13:24:32.831] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 703  [13:24:32.846] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 14.829000011086464ms
+Info 704  [13:24:32.846] Different program with same set of files
+Info 705  [13:24:34.584] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 706  [13:24:34.598] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 14.31708300113678ms
+Info 707  [13:24:34.598] Different program with same set of files
+Info 708  [13:24:35.775] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 709  [13:24:35.788] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 12.582332998514175ms
+Info 710  [13:24:35.788] Different program with same set of files
+Info 711  [13:24:36.455] Format host information updated
+Info 712  [13:24:36.668] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 713  [13:24:36.675] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 78 structureChanged: false structureIsReused:: Completely Elapsed: 7.128708004951477ms
+Info 714  [13:24:36.675] Different program with same set of files
+Info 715  [13:24:39.966] Format host information updated
+Info 716  [13:24:56.393] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 717  [13:24:56.422] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 79 structureChanged: false structureIsReused:: Completely Elapsed: 28.711667001247406ms
+Info 718  [13:24:56.422] Different program with same set of files
+Info 719  [13:24:57.232] Format host information updated
+Info 720  [13:24:57.438] Starting updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json
+Info 721  [13:24:57.447] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/utils/tsconfig.json Version: 80 structureChanged: false structureIsReused:: Completely Elapsed: 9.08975000679493ms
+Info 722  [13:24:57.447] Different program with same set of files
